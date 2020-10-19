@@ -23,7 +23,9 @@
     <!-- <a-box position='0 0.5 0' material='opacity: 0.5;'></a-box> -->
 
     <!-- create image object -->
-    <a-image rotation="-90 0 0" src="#img"></a-image>
+    <a-image rotation="-90 0 0" src="#img">
+      <a-animation attribute="rotation" to="90 360 0" dur="9000" repeat="indefinite" easing="linear"></a-animation>
+    </a-image>
     <a-text value="Pizza Time!" position="-0.5 0 -1" color="black" rotation="-90 0 0"></a-text>
     
     <!-- create obj object -->
