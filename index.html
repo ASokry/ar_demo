@@ -15,7 +15,7 @@
   
   <a-scene embedded arjs>
     <a-assets>
-      <img id="img" rotation="0 0 90" src="tree.png">
+      <img id="img" rotation="-90 0 90" src="tree.png">
       <a-asset-item id="snowflake-obj" src="snowflake.obj"></a-asset-item>
     </a-assets>
 
@@ -23,8 +23,8 @@
     <!-- <a-box position='0 0.5 0' material='opacity: 0.5;'></a-box> -->
 
     <!-- create image object -->
-    <a-image position="0 0 0" rotation="-90 0 0" src="#img"></a-image>
-    <a-text value="Pizza Time!" position="-0.5 0 -1" color="#FF16EB" rotation="-90 0 0"></a-text>
+    <a-image src="#img"></a-image>
+    <a-text value="Pizza Time!!!" position="-0.5 0 -1" color="#FF16EB" rotation="-90 0 0"></a-text>
     
     <!-- create obj object -->
     <!-- <a-entity obj-model="obj: #snowflake-obj" scale="-0.5 0.5 0.5" position="0 0 0" rotation="0 0 0">
